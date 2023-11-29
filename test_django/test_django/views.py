@@ -1,5 +1,5 @@
 from django.http import JsonResponse, Http404
-from .db.models import User
+from test_django.db.models import User
 
 
 def get_user(request, user_id):
